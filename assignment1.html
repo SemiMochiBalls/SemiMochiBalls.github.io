@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication Table</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Set the font style for the webpage */
+            background-color: #000000; /* Set the background color to black */
+            color: #ffffff; /* Set the default text color to white for better contrast against the black background */
+            text-align: center; /* Center the elements on the page */
+        }
+        #tableContainer {
+            margin-top: 20px; /* Add some space above the table */
+        }
+        table {
+            margin: auto; /* Center the table on the page */
+        }
+        td {
+            border: 1px solid #333; /* Add a border to the table cells */
+            padding: 5px; /* Add some padding inside the cells */
+        }
+    </style>
+</head>
+<body>
+    <h1>Dynamic Multiplication Table Generator</h1>
+    
+    <input type="number" id="inputRows" min="1" value="20" placeholder="Number of Rows">
+    <input type="number" id="inputColumns" min="1" value="20" placeholder="Number of Columns">
+    <button onclick="drawTable()">Generate Table</button>
+    
+    <div id="tableContainer"></div>
+
+    <script src="assignment1.js"></script>
+</body>
+</html>
