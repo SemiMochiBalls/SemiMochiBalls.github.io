@@ -1,4 +1,5 @@
 // Get the canvas element
+console.log("buggers!!!");
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
