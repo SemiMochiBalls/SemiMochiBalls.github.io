@@ -105,9 +105,5 @@ document.getElementById("resetScore").addEventListener("click", resetScore); // 
 
 // Initialize the game
 playZoneImage.onload = () => {
-    bugImage.onload = () => {
-        splatteredImage.onload = () => {
-            updateGame(); // Start the game loop once all images are loaded
-        };
-    };
-};
+    updateGame(); // Start the game loop once all images are loaded
+    console.log("end of script")};
