@@ -1,0 +1,58 @@
+body {
+    background-color: dimgrey;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#playZone {
+    background-image: url(cGxheXpvbmU=.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#playZone img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#gameCanvas {
+    border: 1px solid black;
+}
+
+#scoreDisplay {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #FFD700;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: #FFA500;
+}
