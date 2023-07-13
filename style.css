@@ -2,9 +2,10 @@ body {
     background-color: dimgrey;
     font-family: 'Courier New', Courier, monospace;
     color: yellowgreen;
+
     text-align: center;
-    margin: 2px;
-    padding: 2px;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
 }
 
 #playZone {
-    background-image: url(cGxheXpvbmU=.png);
+    background-image: url(playzone.png);
     background-size: cover;
     background-position: center;
 }
